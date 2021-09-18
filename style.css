@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+}
+.container{
+max-width: 1500px;
+height: 100%;
+background: linear-gradient(121.32deg, #FFFFFF 10.96%, #FFFFFF 72%, #FFFFFF 99.98%);
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 59px;
+margin:30px 0 0px 0;
+display:flex;
+}
+.leftside{
+height: 100%;
+width: 252px;
+}
+.leftside_text{
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0F4264;
+    display: flex;
+    margin: 0px auto 0px auto;
+    justify-content: center;
+}
+.picture1{
+    position:relative;
+    top:20px;
+    margin-right: 10px;
+}
+.leftside__menu{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 82px 0px 0px 0px;
+}
+.leftside__menu_links{
+display:flex;
+justify-content: center;
+text-align: center;
+}
+.leftside__menu__links_text{
+    height: 17px;
+    width: 79px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    opacity: 50%;
+}
+.picture2{
+    position:relative;
+    top:7px;
+}
+.leftside__footer{
+margin:300px auto 0px auto;
+text-align: center;
+}
+.leftside__footer_text{
+    font-family: Suprema;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 28px;
+    margin-top: 41px;
+}
+.leftside__footer_button{
+border-radius: 13.617px;
+background: #FFC145;
+border:none;
+font-family: Quicksand;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+text-align: left;
+margin-bottom: 32px;
+}
+.upper{
+width: 1300px;
+margin: 0px 0px 0px 118px;
+display:flex;
+flex-direction: row;
+}
+.upper__left_text1{  
+    font-family: Suprema;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53px;
+    text-align: left;
+    margin-top: auto;
+}
+.upper__left_text2{
+    font-family: Suprema;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    opacity: 50%;
+    position: relative;
+    bottom:35px;
+}
+.upper__right{
+margin:0px 0px 0px 0px;
+}
+.upper__right_text{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: right;
+    position: relative;
+    bottom:50px;
+    margin-right: 227px;
+}
+.upper__right_text2{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: right;
+    opacity: 50%;
+    margin-right: 190px;
+    position: relative;
+    bottom:65px;
+}
+.upper__right_picture{
+    margin-left: 340px;
+    margin-top: 20px;
+}
+.upper__right_flex{
+    display: flex;
+    flex-direction: column;
+    margin:0px 0px 10px 0px;
+}
+.task1__cards{
+    border-radius: 28px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: 0px 0px 1px 0px #0000000A;
+    box-shadow: 0px 2px 6px 0px #0000000A;
+    box-shadow: 0px 16px 24px 0px #0000000F;
+    display: flex;
+}
+.task1__cards_text1{
+    font-family: Suprema;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 24px;
+}
+.task1__cards_card{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.task1__cards_flex1{
+display: flex;
+}
+.task1__cards_text2{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin:15px 80px 0px 40px;
+    opacity: 50%;
+}
+.task1__cards_text3{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+.task1__cards_right{
+margin: 30px 40px 0px 0px;
+text-align: right;
+}
+.task1__cards_right_text1{
+    border-radius: nullpx;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color:#197BBD;
+}
+.task1__cards_right_text2{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color:#439A86;
+}
+.task1__cards_right_text3{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: #BB4430;
+}
+.task1__cards_right_text4{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    opacity: 50%;
+    position: relative;
+    bottom:15px;
+}
+.task1__trans{
+    border-radius: 19.004404067993164px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px 0px #0000000A;
+    box-shadow: 0px 2px 6px 0px #0000000A;
+    box-shadow: 0px 16px 24px 0px #0000000F;
+}
+.task1__trans_text{
+    font-family: Suprema;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+.task1__trans_flex{
+display: flex;
+}
+.task1__trans_flex_box1{
+margin: 0px 50px 0px 0px;
+}
+.task1__trans_flex_box1_text{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    opacity: 50%;
+    margin-bottom: 34px;
+    white-space: nowrap;
+}
+.task1__trans_flex_box1_text1{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    position: relative;
+    bottom:12px;
+    white-space: nowrap;
+}
+.picture3{  
+    display: flex;
+    margin: 0px auto;
+}
+.task1__trans_flex_box1_text2{
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.upper__right_text1{
+    font-family: Suprema;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    display: flex;
+    margin-left:32px;
+}
+.upper__right_text1_pos{
+    position: relative;
+    left:10px;
+    top:25px;
+}
+.upper__right_flex1{
+display: flex;
+margin-left:32px;
+}
+.upper__right_flex1_box1{
+margin:0px 14px 0px 0px;
+background: #FFFFFF;
+box-shadow: 0px 0px 1px 0px #0000000A;
+box-shadow: 0px 2px 6px 0px #0000000A;
+box-shadow: 0px 16px 24px 0px #0000000F;
+width: 158px;
+height: 169px;
+border-radius:28px;
+}
+.upper__right_flex1_box1_text{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#696969;
+    margin-left:15px;
+}
+.upper__right_flex1_text2{
+    font-family: Suprema;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin:0px 0px 15px 15px;
+}
+.upper__right_flex1_margin{
+    margin:0px 0px 0px 15px;
+}
+.upper__right_text4{
+    margin:50px 0px 0px 40px;
+    font-family: Suprema;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+}
+.upper__right_lower{
+display:flex;
+}
+.upper__right_lower_box1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px 0px #0000000A;
+    box-shadow: 0px 2px 6px 0px #0000000A;
+    box-shadow: 0px 16px 24px 0px #0000000F;    
+    border-radius: 28px;
+    margin-left: 40px;
+}
+.upper__right_lower_box1_column{
+display:flex;
+text-align: center;
+}
+.upper__right_lower_box1_flex{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0px 15px 0px 0px;
+font-family: Suprema;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+color: #404040;
+
+}
+.upper__right_lower_box1_form{
+display: flex;
+
+}
+.upper__right_lower_box1_form_end{
+    background: #FFFFFF;
+    border: 1px solid #197BBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 175px;
+    height: 36px;
+    margin-left: 15px;
+}
+.upper__right_lower_box1_flex_pos{
+margin-bottom: 22px;
+position: relative;
+top:15px;
+left:15px;
+}
